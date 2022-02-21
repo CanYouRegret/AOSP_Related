@@ -1,12 +1,12 @@
 # Pixel4 连接Ubuntu时遇到的no permissions问题
 
-![](.\adb_devices_no_permissions.png)
+![](./adb_devices_no_permissions.png)
 
-参考[](https://blog.csdn.net/cgx090902/article/details/73863481)解决
+参考 [解决no permissions问题](https://blog.csdn.net/cgx090902/article/details/73863481) 解决
 
 ## 1. lsusb 查看设备相关id, 这里Pixel4是 18d1:4ee7
 
-![](.\adb_devices_lsusb.png)
+![](./adb_devices_lsusb.png)
 
 ## 2. 运行 sudo vim /etc/udev/rules.d/51-android.rules
 
