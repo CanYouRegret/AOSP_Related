@@ -1,5 +1,6 @@
 # Pixel4 连接Ubuntu时遇到的no permissions问题
 
+## 问题：
 ![](./adb_devices_no_permissions.png)
 
 参考 [解决no permissions问题](https://blog.csdn.net/cgx090902/article/details/73863481) 解决
