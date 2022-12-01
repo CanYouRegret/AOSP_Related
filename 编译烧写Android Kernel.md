@@ -19,10 +19,10 @@
 
 ​       如果不能科学上网的话，可以用国内清华的镜像来替代下载。
 
-        ```shell
-            repo init -u https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/kernel/manifest -b android-msm-coral-4.14-android13
-            repo sync
-        ```
+  ```shell
+  repo init -u https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/kernel/manifest -b android-msm-coral-4.14-android13
+  repo sync
+  ```
 
 * 然后就是静静的等待sync完成，相应的目录下可以看到kernel的源码已经下载成功。
 
